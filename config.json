@@ -1,8 +1,8 @@
 {
-  "hed": "Headline",
-  "dek": "This is a short description",
-  "byline": "Firstname Lastname",
-  "source": "Source: This is the source",
+  "hed": "The Michigan Daily Distribution Sites",
+  "dek": "Here is where you can find a print copy of The Michigan Daily!",
+  "byline": "Naitian Zhou",
+  "source": "Source: The Michigan Daily",
 
   "deployment": "https://datagraphics.michigandaily.com",
 
@@ -19,7 +19,7 @@
       "auth": "./auth.json"
     },
     "sheets": {
-      "id": "",
+      "id": "1HqeINltcoZ_6_0gVJmD3eAWf46cWtPoygkvjDTLgF-M",
       "sheetId": "0",
       "output": "./src/graphic/data/data.csv",
       "auth": "./auth.json"

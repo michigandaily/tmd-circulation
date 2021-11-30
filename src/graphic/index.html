@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width" />
     <title>{{ config.hed }}</title>
     <link rel="stylesheet" href="./css/main.scss" type="text/css" media="all">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
     {% if env == "production" %}
     {% if config.ga_id %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -26,6 +29,9 @@
     <h1 class="figure__title">{{ config.hed }}</h1>
     <h2 class="figure__caption">{{ config.dek }}</h2>
     <figure>
+        <div id="map">
+            
+        </div>
     </figure>
     <div class="figure__source">
         {{ config.source }}
