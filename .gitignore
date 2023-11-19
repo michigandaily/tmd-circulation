@@ -2,6 +2,7 @@
 build/
 dist/
 auth.json
+src/graphic/data/
 
 # Logs
 logs

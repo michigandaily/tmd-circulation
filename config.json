@@ -12,17 +12,13 @@
     "srcDir": "./src/",
     "buildDir": "./build/"
   },
-  "fetch": {
-    "archie": {
-      "id": "",
-      "output": "",
-      "auth": "./auth.json"
-    },
-    "sheets": {
+  "fetch": [
+    {
+      "type": "sheet",
       "id": "1HqeINltcoZ_6_0gVJmD3eAWf46cWtPoygkvjDTLgF-M",
       "sheetId": "0",
       "output": "./src/graphic/data/data.csv",
-      "auth": "./auth.json"
+      "auth": "~/.daily-google-services.json"
     }
-  }
+  ]
 }
